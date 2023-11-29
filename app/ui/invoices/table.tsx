@@ -87,10 +87,10 @@ export default async function InvoicesTable({
                     <div className="flex items-center gap-3">
                       <Image
                         src={invoice.image_url}
-                        alt="Profile picture"
                         className="rounded-full"
                         width={28}
                         height={28}
+                        alt={`${invoice.name}'s profile picture`}
                       />
                       <p>{invoice.name}</p>
                     </div>
